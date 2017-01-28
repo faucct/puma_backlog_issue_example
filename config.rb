@@ -17,3 +17,5 @@ daemonize
 pidfile '/var/run/puma.pid'
 
 bind 'tcp://0.0.0.0:9292?backlog=8'
+
+queue_requests false
